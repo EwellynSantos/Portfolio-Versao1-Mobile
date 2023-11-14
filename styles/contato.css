@@ -1,0 +1,126 @@
+#contato {
+    background-color: var(--cor-primaria-60);
+    padding: 1em;
+}
+
+.conteudo__contact__texto h1{
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+    color: var(--cor-terciaria-30);
+}
+
+.connect__with__me{
+    display: none;
+}
+
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.conteudo-contato__redes{
+    padding: 2% 0 3% 0
+}
+
+.conteudo__contact__imagem{
+    width: 1.7em;
+    padding: 1%;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    
+    .conteudo__contact{
+        margin-left: 10%;
+        padding: 14% 0 0;
+        display: flex;
+        gap: 10px;
+      }
+      
+      .conteudo__contact__left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .connect__with__me{
+        display: block;
+    }
+
+    .conteudo__contact__texto h1{
+        margin-bottom: 50px;
+        width: 100%;
+        font-size: 2.3em;
+        color: var(--cor-terciaria-30);
+    }
+  
+    .conteudo__contact__texto p{
+        width: 100%;
+    }
+
+
+    .conteudo__contact__imagem{
+        width: 1.7em;
+    }
+      
+    /*.conteudo__contact__form button{
+        width: 30%;
+    }
+      
+    .input {
+        border-radius: 3px;
+        display: flex;
+        width: 90%;
+        height: 30px;
+        color: var(--default-btn-color);
+        font: var(--font-weight) var(--font-size) var(--font-family);
+        transition: var(--btn-transition);
+        box-shadow: var(--btn-shadow);
+        border:1px solid #2A2B3A;
+        margin-bottom: 20px;
+        font-size: 0.8em;
+    }
+
+    .ui-btn{
+        border-radius: 3px;
+        display: flex;
+        width: 90%;
+        height: 30px;
+        color: var(--default-btn-color);
+        font: var(--font-weight) var(--font-size) var(--font-family);
+        transition: var(--btn-transition);
+        box-shadow: var(--btn-shadow);
+        border:1px solid #2A2B3A;
+        margin-bottom: 20px;
+        font-size: 0.8em;
+    }
+        
+    .ui-btn:hover, .ui-btn:focus {
+        box-shadow: 0px 0px 10px 0px #46C4E0;
+        border: 1px solid #46C4E0;
+    }
+      
+    .message{
+        height: 40%;
+    }*/
+      
+    .conteudo__contact__right{
+        margin: 10% 13% 13% 5%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+      
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 20vw;
+    }
+}

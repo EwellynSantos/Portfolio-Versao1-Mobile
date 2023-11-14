@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ewellyn Santos</title>
+    <link rel="icon" href="assets/logoUnicaRoxo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <img src="assets/logoPreta.png" alt="Logo" class="container__imagem">
+        </div>
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Início</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#about" class="lista-menu__link">Sobre mim</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#projects" class="lista-menu__link">Projetos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#contato" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <ul class="opções">
+            <li class="opções__item"><a href="index.html" class="opções__link">Início</a></li>
+            <li class="opções__item"><a href="#about" class="opções__link">Sobre mim</a></li>
+            <li class="opções__item"><a href="#projects" class="opções__link">Projetos</a></li>
+            <li class="opções__item"><a href="#contato" class="opções__link">Contatos</a></li>
+        </ul>
+    </header>
+
+    <section class="conteudo-inicio">
+        <div class="conteudo__titulo">
+            <h1>Oi, eu sou a<br>
+                <strong id="textos__destacados">Ewellyn Santos</strong><br>
+                Desenvolvedora de Softwares
+            </h1> 
+            <div class="conteudo-inicio__botao">
+                <a href="https://www.linkedin.com/in/ewellyn-santos-naksu"><img src="assets/linkedin.png" alt="Link Linkedin" class="conteudo-inicio__redes-sociais"></a>
+                <a href="https://github.com/EwellynSantos"><img src="assets/github.png" alt="Link GitHub" class="conteudo-inicio__redes-sociais"></a>
+                <a href="mailto:ewellynmsfeitoza@gmail.com"><img src="assets/e-mail.png" alt="Link E-mail" class="conteudo-inicio__redes-sociais"></a>
+            </div>
+            
+        </div>
+            <img class="conteudo-inicio__img" src="assets/ImagemPrincipalSombrada.png" alt="Imagem de uma menina mexendo em um computador">   
+    </section>
+    
+
+
+    <section id="about" class="sobre-mim">
+        <h2 class="sobre-mim__titulo">Sobre mim</h2>
+        <p class="sobre-mim__texto">Olá, sou a Ewellyn, uma desenvolvedora apaixonada por transformar ideias em código. Minha jornada começou quando descobri minha fascinação por programação. Desde então, tenho investido tempo e esforço em adquirir conhecimentos em linguagens de programação e tecnologias atuais.<br><br> No momento tenho trabalhado em projetos pessoais e colaborativos para aplicar o que aprendi. Acredito que a resolução de problemas e a criatividade são elementos essenciais no desenvolvimento de software.<br><br>Além do mais, estou cursando análise e desenvolvimento de sistemas (ADS) com enfoque em desenvolvimento FullStack.</p>
+        <h2 class="sobre-mim__titulo">Tecnologias</h2>
+        <div class="row__about">
+            <div class="card__about">
+                <img class="card__imagem" src="assets/python.png" alt="Logo do Python">
+                <div class="card__texto">
+                    <p>Python</p>
+                </div>
+            </div>
+            <div class="card__about">
+                <img class="card__imagem" src="assets/csharp.png" alt="Logo do Java">
+                <div class="card__texto">
+                    <p>C#</p>
+                </div>
+            </div>
+            <div class="card__about">
+                <img class="card__imagem" src="assets/js.png" alt="Logo do Javascript">
+                <div class="card__texto">
+                    <p>Javascript</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row__about">
+            <div class="card__about">
+                <img class="card__imagem" src="assets/html-5.png" alt="Logo do HTML">
+                <div class="card__texto">
+                    <p>HTML</p>
+                </div>
+            </div>
+            <div class="card__about">
+                <img class="card__imagem" src="assets/css-3.png" alt="Logo do CSS">
+                <div class="card__texto">
+                    <p>CSS</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="projects" class="projetos">
+        <h2 class="carrossel__titulo">Projetos</h2>
+
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/embreve.jpg"
+                            alt="Em breve um projeto será adicionado"></div>
+                    <div class="swiper-slide"><img src="assets/embreve.jpg"
+                            alt="Em breve um projeto será adicionado"></div>
+                    <div class="swiper-slide"><img src="assets/embreve.jpg"
+                            alt="Em breve um projeto será adicionados"></div>
+                    <div class="swiper-slide"><img src="assets/embreve.jpg" 
+                            alt="Em breve um projeto será adicionado"></div>
+                    <div class="swiper-slide"><img src="assets/embreve.jpg"   
+                            alt="Em breve um projeto será adicionado"></div>
+                    <div class="swiper-slide"><img src="assets/embreve.jpg" 
+                            alt="Em breve um projeto será adicionado"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato"  class="conteudo__contact"><!--Inicio Conteudo Contact-->
+        <div class="conteudo__contact__left">
+            <div class="conteudo__contact__texto">
+                <h1>Contato</h1>
+                <div class="connect__with__me">
+                    <p>Entre em contato se quiser saber mais sobre mim ou meu trabalho, ou apenas quiser dar um oi, me mande uma mensagem. Eu adoraria ouvir de você.</p>
+                </div>
+            </div>
+           <!--<form class="conteudo__contact__form" action="script.php" method="post">
+                <label>Nome</label>
+                <input class="input" name="text" placeholder=" Insira seu nome" type="text">
+                <label>E-mail</label>
+                <input class="input" name="email" placeholder=" Insira seu e-mail" type="email">
+                <label>Mensagem</label>
+                <textarea class="input message" placeholder=" Insira sua mensagem" name="message" rows="4"></textarea>
+                <button  class="ui-btn" type="submit">
+                    <span>
+                        Enviar
+                    </span>
+                </button>
+            </form>-->
+        </div>
+        <div class="conteudo__contact__right">
+            <div class="conteudo-contato__redes">
+                <h2>E-mail para contato</h2>
+                <p>ewellynmsfeitoza@gmail.com</p>
+            </div>
+            <div class="conteudo-contato__redes">
+                <h2>Adicione nas redes</h2>
+                <a href="https://www.linkedin.com/in/ewellyn-santos-naksu"><img src="assets/linkedin.png" alt="Link para o Linkedin" class="conteudo__contact__imagem"></a>
+                <a href="https://github.com/EwellynSantos"><img src="assets/github.png" alt="Link para o GitHub" class="conteudo__contact__imagem"></a>
+            </div>
+        </div>
+   
+    </section>
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Desenvolvido com <img src="assets/like.png" alt="Coração" class="rodapé__img">  por Ewellyn Santos</h2>   
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
