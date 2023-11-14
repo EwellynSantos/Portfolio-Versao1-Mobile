@@ -1,8 +1,8 @@
 .sobre-mim{
     background-color: var(--cor-terciaria-30);
     color: var(--cor-primaria-60);
-    text-align: center;
     padding-bottom: 10%;
+    line-height: 1.5;
 }
 
 
@@ -10,6 +10,7 @@
     font-size: 25px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
+    text-align: center;
 }
 
 .sobre-mim__texto {
@@ -50,7 +51,7 @@
 
 @media screen and (min-width: 1024px) {
     .sobre-mim {
-        padding: 10% 0 10% 0;
+        padding: 10%;
     }
 
     .sobre-mim__titulo {
