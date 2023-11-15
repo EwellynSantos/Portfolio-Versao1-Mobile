@@ -1,6 +1,6 @@
 <h1>Portfolio</h1>
 
-> Status: Developing ⚠️
+> Status: Finished ✔️
 
 <h2>Version Desktop</h2>
 
