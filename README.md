@@ -2,9 +2,10 @@
 
 > Status: Developing ⚠️
 
-## Version Desktop
+<h2>Version Desktop</h2>
 
-## Version Mobile
+<h2>Version Mobile</h2>
+
 
 ## Tecnologies used:
 + HTML
